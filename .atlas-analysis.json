@@ -1,0 +1,113 @@
+{
+  "projectType": "saas",
+  "projectName": "Futurum Health AI",
+  "projectDescription": "An agentic AI platform for healthcare that automates patient intake, clinical documentation, billing, and health tracking for both clinics and patients.",
+  "theme": "almond",
+  "primaryColor": "#3c3c3c",
+  "lightColor": "#57cceb",
+  "darkColor": "#074071",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "For Clinics",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "clinics/getting-started",
+              "clinics/early-access"
+            ]
+          },
+          {
+            "group": "AI Agents",
+            "pages": [
+              "clinics/ai-receptionist",
+              "clinics/ai-scribe",
+              "clinics/ai-coder",
+              "clinics/ai-clinical-insights",
+              "clinics/ai-nursing"
+            ]
+          },
+          {
+            "group": "Clinic Management",
+            "pages": [
+              "clinics/dashboard",
+              "clinics/ehr-integration",
+              "clinics/compliance-security"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "For Patients",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "patients/overview",
+              "patients/getting-started"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "patients/health-tracking",
+              "patients/pre-visit-reports",
+              "patients/visit-summaries",
+              "patients/wearable-integrations"
+            ]
+          },
+          {
+            "group": "Privacy & Security",
+            "pages": [
+              "patients/data-privacy"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Platform",
+        "groups": [
+          {
+            "group": "Security",
+            "pages": [
+              "platform/security-compliance",
+              "platform/hipaa",
+              "platform/infrastructure"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "platform/faq",
+              "platform/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "AI Receptionist — 24/7 call handling, appointment scheduling, and insurance verification",
+    "AI Scribe — Real-time ambient transcription and SOAP note generation",
+    "AI Medical Coder — Automated ICD/CPT code extraction and validation",
+    "Clinical Insights AI — Differential diagnosis suggestions and patient data analysis",
+    "Charting AI — Automated EHR-ready clinical documentation",
+    "Nursing AI — Patient intake, vitals review, and care coordination",
+    "Health Chronicler — Continuous wearable and device data aggregation for patients",
+    "Pre-Assessment AI — Pre-visit symptom collection and structured health reports",
+    "Post-visit plain-English translation of doctor notes for patients",
+    "HIPAA-compliant, SOC 2 Type II certified, AWS Bedrock-powered infrastructure"
+  ],
+  "publicApiSurface": [
+    "Patient intake and pre-assessment workflow",
+    "Wearable / Apple Health / Google Fit sync (Health Chronicler)",
+    "EHR integration and chart push",
+    "Clinical notes and SOAP note generation",
+    "Appointment scheduling via Receptionist AI",
+    "Medical code extraction (ICD/CPT via Coder AI)",
+    "Clinical insights and differential diagnosis reports",
+    "Clinic dashboard — patient flow, staff schedules, wait times"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Futurum Health AI",
+  "theme": "almond",
+  "colors": {
+    "primary": "#3c3c3c",
+    "light": "#57cceb",
+    "dark": "#074071"
+  },
+  "logo": {
+    "light": "https://media.brand.dev/0556754c-c484-4daa-8a85-570b850a1598.png",
+    "dark": "https://media.brand.dev/0556754c-c484-4daa-8a85-570b850a1598.png"
+  },
+  "favicon": "https://media.brand.dev/eed11f9e-b9db-4338-93fa-36719f0e1596.png",
+  "fonts": {
+    "heading": {
+      "family": "Epilogue"
+    },
+    "body": {
+      "family": "Montserrat"
+    }
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Request Access",
+      "href": "https://futurumhealth.ai/early-access/"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "For Clinics",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "clinics/getting-started",
+              "clinics/early-access"
+            ]
+          },
+          {
+            "group": "AI Agents",
+            "pages": [
+              "clinics/ai-receptionist",
+              "clinics/ai-scribe",
+              "clinics/ai-coder",
+              "clinics/ai-clinical-insights",
+              "clinics/ai-nursing"
+            ]
+          },
+          {
+            "group": "Clinic Management",
+            "pages": [
+              "clinics/dashboard",
+              "clinics/ehr-integration",
+              "clinics/compliance-security"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "For Patients",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "patients/overview",
+              "patients/getting-started"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "patients/health-tracking",
+              "patients/pre-visit-reports",
+              "patients/visit-summaries",
+              "patients/wearable-integrations"
+            ]
+          },
+          {
+            "group": "Privacy & Security",
+            "pages": [
+              "patients/data-privacy"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Platform",
+        "groups": [
+          {
+            "group": "Security",
+            "pages": [
+              "platform/security-compliance",
+              "platform/hipaa",
+              "platform/infrastructure"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "platform/faq",
+              "platform/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
