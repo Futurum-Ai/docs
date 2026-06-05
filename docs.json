@@ -14,10 +14,10 @@
   "favicon": "https://media.brand.dev/eed11f9e-b9db-4338-93fa-36719f0e1596.png",
   "fonts": {
     "heading": {
-      "family": "Epilogue"
+      "family": "Inter"
     },
     "body": {
-      "family": "Montserrat"
+      "family": "Inter"
     }
   },
   "navbar": {
