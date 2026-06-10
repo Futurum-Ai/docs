@@ -117,7 +117,7 @@
         "items": [
           {
             "label": "Privacy Policy",
-            "href": "https://docs.futurumhealth.ai/privacy-policy"
+            "href": "/platform/privacy-policy"
           }
         ]
       }
