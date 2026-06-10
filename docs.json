@@ -25,13 +25,7 @@
       "type": "button",
       "label": "Request Access",
       "href": "https://futurumhealth.ai/early-access/"
-    },
-    "links": [
-      {
-        "href": "https://docs.futurumhealth.ai/platform/privacy-policy",
-        "label": "Privacy Policy"
-      }
-    ]
+    }
   },
   "navigation": {
     "tabs": [
@@ -102,7 +96,7 @@
               "platform/security-compliance",
               "platform/hipaa",
               "platform/infrastructure",
-              "privacy-policy"
+              "platform/privacy-policy"
             ]
           },
           {
@@ -123,10 +117,11 @@
         "items": [
           {
             "label": "Privacy Policy",
-            "href": "https://docs.futurumhealth.ai/platform/privacy-policy"
+            "href": "https://docs.futurumhealth.ai/privacy-policy"
           }
         ]
       }
     ]
-  }
+  },
+  "redirects": []
 }
