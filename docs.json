@@ -123,5 +123,11 @@
       }
     ]
   },
-  "redirects": []
+  "redirects": [
+    {
+      "source": "/privacy-policy",
+      "destination": "/platform/privacy-policy",
+      "permanent": true
+    }
+  ]
 }
