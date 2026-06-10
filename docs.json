@@ -110,19 +110,6 @@
       }
     ]
   },
-  "footer": {
-    "links": [
-      {
-        "header": "Legal",
-        "items": [
-          {
-            "label": "Privacy Policy",
-            "href": "/platform/privacy-policy"
-          }
-        ]
-      }
-    ]
-  },
   "redirects": [
     {
       "source": "/privacy-policy",
